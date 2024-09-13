@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>docoment</title>
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <style>
+      .card {
+        position: relative;
+        max-width: 416px;
+        width: 100%;
+        display: block;
+      }
+      .card-container {
+        border: 2px solid darkgreen;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+      }
+      .card__img {
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+        height: 100%;
+        border-radius: 10px;
+      }
+      .card__haeding {
+        font-size: 2.3rem;
+        font-weight: 600;
+        color: #02bc99;
+      }
+
+      .card__name {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #fff;
+      }
+      .card__btn {
+        background: rgba(211, 211, 211, 0.219);
+        border-radius: 0;
+        text-align: left;
+        padding: 1.6rem 2rem;
+        margin-top: 1rem;
+      }
+      .card__header {
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 1rem;
+        height: 400px;
+      }
+      .card__header:hover {
+        overflow: hidden;
+        opacity: 1;
+      }
+      @media screen and (max-width: 1292px) {
+        .card-container.container {
+          max-width: 85.6rem;
+        }
+      }
+      @media screen and (max-width: 855px) {
+        .card-container.container {
+          max-width: 40.2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="feature">
+      <div class="">
+        <div class="feature-header">
+          <h2 class="feature__heading">Features Buildings</h2>
+          <p class="feature__text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing.
+          </p>
+        </div>
+        <div class="card-container container">
+          <artical class="card">
+            <img
+              class="card__img"
+              src="image/1725636477Screenshot 2024-02-03 034159.png"
+              alt=""
+            />
+            <div class="card__body">
+              <h3 class="card__haeding">Mahmoud Holding</h3>
+              <span class="card__name">Riyadh</span>
+              <a href="#" class="btn card__btn"> View Detail</a>
+            </div>
+          </artical>
+          <artical class="card">
+            <img class="card__img" src="image/diagram.png" alt="" />
+            <div class="card__body">
+              <h3 class="card__haeding">Mahmoud Holding</h3>
+              <span class="card__name">Riyadh</span>
+              <a href="#" class="btn card__btn"> View Detail</a>
+            </div>
+          </artical>
+          <artical class="card">
+            <img
+              class="card__img"
+              src="image/1725636477Screenshot 2024-02-03 034159.png"
+              alt=""
+            />
+            <div class="card__body">
+              <h3 class="card__haeding">Mahmoud Holding</h3>
+              <span class="card__name">Riyadh</span>
+              <a href="#" class="btn card__btn"> View Detail</a>
+            </div>
+          </artical>
+        </div>
+        <div class="card__footer">
+          <a href="" class="btn btn--primary">See All Buildings</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

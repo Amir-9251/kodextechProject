@@ -1,0 +1,120 @@
+@media screen and (min-width: 968px) {
+  /* TODO: navbar Responsive */
+  .navbar__teggler {
+    display: none;
+  }
+
+  /* TODO: sidebar Responsive */
+  .sidebar-container {
+    position: static;
+    transition: transform 0s;
+    transform: translateX(0);
+  }
+  .sidebar {
+    background-color: transparent;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+  }
+  .list-middle {
+    max-width: 70rem;
+    margin: 0 auto;
+    flex: 1;
+    justify-content: space-between;
+  }
+  /* TODO: list Responsive */
+
+  .list {
+    flex-direction: row;
+    gap: 1.2rem;
+  }
+}
+@media screen and (min-width: 968px) {
+  .hero__heading {
+    font-size: 6rem;
+    font-weight: 600;
+  }
+  .hero__text {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 455px) {
+  .dotted__img {
+    display: none;
+  }
+  .position__img {
+    right: 0;
+  }
+  .badge {
+    right: 0;
+  }
+  .showcase__header {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .showcase {
+    flex-direction: row;
+    max-width: none;
+    padding: 4rem 3rem;
+  }
+  .main__img {
+    height: 400px;
+  }
+  .main__img img {
+    width: auto;
+  }
+  .showcase__text {
+    font-size: 2rem;
+  }
+  .showcase__heading {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .feature .container {
+    max-width: 890px;
+  }
+  .card {
+    flex: 1 1 calc(50% - 20px); /* 2 cards per row */
+  }
+}
+@media screen and (max-width: 768px) {
+  .feature {
+    flex-direction: row;
+  }
+  .card {
+    max-width: none;
+  }
+  .feature .container {
+    max-width: 500px;
+  }
+  .card {
+    flex: 1 1 100%; /* 1 card per row */
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .side__img {
+    display: none;
+  }
+
+  .main-container {
+    padding: 0;
+  }
+  .building-card__section.container {
+    max-width: 80rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card-building {
+    flex: 1 1 calc(100% - 20px);
+  }
+  .card-building__info {
+    flex-direction: column;
+  }
+  .building-card__section.container {
+    max-width: 50rem;
+  }
+}
