@@ -138,8 +138,7 @@ body {
   color: #fff;
 }
 .hero-banner {
-  background: linear-gradient(#000c, #000c),
-    url(/image/home-banner.745e6fd065cccde610bc.png);
+  background: linear-gradient(#000c, #000c), url(/image/hero-banner.webp);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -511,7 +510,7 @@ body {
 }
 .zero__banner {
   background: linear-gradient(rgba(0, 0, 0, 0.185), rgba(0, 0, 0, 0.185)),
-    url(/image/zero.png);
+    url(/image/zero.webp);
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
@@ -573,5 +572,8 @@ body {
 @media screen and (max-width: 768px) {
   .page-footer .container {
     max-width: 50rem;
+  }
+  .page-footer .list {
+    gap: 7rem;
   }
 }
