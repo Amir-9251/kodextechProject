@@ -537,6 +537,7 @@ body {
 @media screen and (max-width: 768px) {
   .zero .container {
     max-width: 500px;
+    padding: 0 2rem;
   }
 }
 .page-footer {
@@ -574,6 +575,6 @@ body {
     max-width: 50rem;
   }
   .page-footer .list {
-    gap: 7rem;
+    gap: 4rem;
   }
 }
