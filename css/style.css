@@ -53,8 +53,8 @@ body {
   color: var(--color-primary);
 }
 .navbar__teggler {
-  width: 3rem;
-  height: 3rem;
+  width: 4rem;
+  height: 4rem;
 }
 .btn__icon {
   width: 20px;
