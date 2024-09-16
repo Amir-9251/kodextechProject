@@ -49,48 +49,50 @@
         </p>
       </div>
     </div>
-    <div class="container">
-      <div class="showcase">
-        <div class="showcase__header">
-          <div class="dotted__img">
-            <img src="image/dote.png" alt="" />
-          </div>
-          <div class="position__img">
-            <img src="image/position icon.png" alt="" />
-          </div>
-          <div class="main__img">
-            <img src="image/building-img.webp" alt="" />
-          </div>
-          <!-- badge -->
-          <div class="badge">
-            <div class="badge__header">
-              <h3 class="badge__heading">building space</h3>
-              <span class="badge__text">23 Building</span>
+    <section class="showcase-block">
+      <div class="container">
+        <div class="showcase">
+          <div class="showcase__header">
+            <div class="dotted__img">
+              <img src="image/dote.png" alt="" />
             </div>
-            <div class="badge__footer">
-              <img src="image/map.png" alt="" />
-              <h3>
-                click here
-                <a id="footer__link" href="#">click on the link to see map</a>
-              </h3>
+            <div class="position__img">
+              <img src="image/position icon.png" alt="" />
+            </div>
+            <div class="main__img">
+              <img src="image/building-img.webp" alt="" />
+            </div>
+            <!-- badge -->
+            <div class="badge">
+              <div class="badge__header">
+                <h3 class="badge__heading">building space</h3>
+                <span class="badge__text">23 Building</span>
+              </div>
+              <div class="badge__footer">
+                <img src="image/map.png" alt="" />
+                <h3>
+                  click here
+                  <a id="footer__link" href="#">click on the link to see map</a>
+                </h3>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="showcase__body">
-          <h2 class="showcase__heading">
-            The Easiest Method to find a Building Space
-          </h2>
-          <p class="showcase__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            libero voluptatem, distinctio dignissimos iste amet mollitia
-            consectetur temporibus eligendi ratione!
-          </p>
-          <div class="showcase__footer">
-            <a href="" class="btn btn--primary">Read more</a>
+          <div class="showcase__body">
+            <h2 class="showcase__heading">
+              The Easiest Method to find a Building Space
+            </h2>
+            <p class="showcase__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              libero voluptatem, distinctio dignissimos iste amet mollitia
+              consectetur temporibus eligendi ratione!
+            </p>
+            <div class="showcase__footer">
+              <a href="" class="btn btn--primary">Read more</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <section class="feature">
       <div class="container">
         <artical class="feature__header">
@@ -456,6 +458,37 @@
         </section>
       </div>
     </div>
+    <!-- chart -->
+    <section class="chart">
+      <div class="container">
+        <div class="chart-container">
+          <div class="chart__graph">
+            <div class="graph__header">
+              <div class="chart__heading">
+                <p>Statistics</p>
+                <h3>Buildings</h3>
+              </div>
+              <div class="label">
+                <h3>Fully Reserved</h3>
+                <h3>Average</h3>
+                <h3>free</h3>
+              </div>
+            </div>
+            <div id="chart" class="apetex"></div>
+          </div>
+          <div class="chart__body">
+            <h2 class="bode__heading">Buildings space analytics</h2>
+            <p class="body__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem impedit aut, a voluptates quibusdam repellat nihil ipsa
+              consequatur odio. Obcaecati. Lorem ipsum dolor sit amet
+              consectetur, adipisicing elit. Doloribus, fugiat?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section -->
     <section class="zero zero__banner">
       <div class="container">
         <div class="zero__content">
@@ -470,6 +503,7 @@
         </div>
       </div>
     </section>
+
     <footer class="page-footer">
       <div class="container">
         <div class="footer__body">
@@ -489,7 +523,7 @@
         Copyright &copy; 2024 Space Management System. All Rights Reserved.
       </p>
     </footer>
-    <img style="display: none" src="image/cross.png" alt="" />
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="js/index.js"></script>
   </body>
 </html>
