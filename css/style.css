@@ -526,7 +526,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .zero .container {
-    max-width: 420px;
+    max-width: 40rem;
   }
 }
 .page-footer {
