@@ -1,3 +1,9 @@
+document.querySelector("#toggler").addEventListener("click", function () {
+  document.querySelectorAll(".sidebar-container").forEach((element) => {
+    element.classList.toggle("activated");
+  });
+});
+
 // ApexCharts
 var categories = [];
 
