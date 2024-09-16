@@ -40,7 +40,7 @@ var options = {
   colors: [],
   plotOptions: {
     bar: {
-      columnWidth: "60%",
+      columnWidth: "55%",
       distributed: true,
       borderRadius: 5,
     },
@@ -56,7 +56,7 @@ var options = {
     categories: categories,
     labels: {
       style: {
-        fontSize: "15px",
+        fontSize: "10px",
         fontWeight: 500,
         fontFamily: "Helvetica, Arial",
       },
